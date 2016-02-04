@@ -1,0 +1,214 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+.navbar-nav > li > a {
+    padding-top:5px !important; padding-bottom:5px !important;
+}
+.navbar {
+    min-height:100px !important;
+    border: 0px;
+}
+
+.container {
+    min-height: 100px;
+}
+.navbar-right{
+    min-height: 60px;
+}
+.navbar-inverse{
+  background: -moz-linear-gradient(top,  rgba(0,0,51,1) 0%, rgba(0,0,51,1) 50%, rgba(249,249,249,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,51,1)), color-stop(50%,rgba(0,0,51,1)), color-stop(100%,rgba(249,249,249,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,51,1) 0%,rgba(0,0,51,1) 50%,rgba(249,249,249,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,51,1) 0%,rgba(0,0,51,1) 50%,rgba(249,249,249,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,51,1) 0%,rgba(0,0,51,1) 50%,rgba(249,249,249,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,51,1) 0%,rgba(0,0,51,1) 50%,rgba(249,249,249,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000033', endColorstr='#00f9f9f9',GradientType=0 ); /* IE6-9 */
+
+
+}
+#headerback{
+    height: 50px;
+    width: 100%;
+    background-color: #000033;
+    position: fixed;
+    z-index: 5;
+    top : 0px;
+}
+
+/* Set image Size default*/
+ #logo>img{
+width:100px;
+height: auto;
+}
+
+
+
+/* Desktop View */
+@media (min-width: 992px){
+    .navbar-nav>li {
+      margin-top: 40px;
+      }
+
+
+      #logo{
+        position: fixed;
+        top:5px;
+        left:15px;
+    }
+    #company_name{
+      position: fixed;
+        top:0px;
+        left:130px;
+    }
+}
+
+
+
+/* Tab View */
+@media (max-width: 992px){
+
+      #logo{
+        position: fixed;
+        top:5px;
+        left:15px;
+    }
+    #logo>img{
+        width:75px;
+    }
+
+
+    #company_name{
+      position: fixed;
+        top:0px;
+        left:100px;
+    }
+}
+
+
+
+
+/* Mobile View Smallest */
+@media screen and (max-width: 767px){
+
+    .navbar-nav>li {
+        background-color: rgba(0,0,0,0.5);
+      }
+    .navbar-collapse{
+  float: right;
+    }
+
+
+    .navbar-collapse.in {
+  overflow-y: visible;
+}
+
+        #logo{
+        position: fixed;
+        top:5px;
+        left:15px;
+    }
+
+    #logo>img{
+        width:50px;
+    }
+
+    #company_name{
+      position: fixed;
+        top:0px;
+        left:100px;
+    }
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> d782ba5412da31d42c6fcb3454e7da3202dc002e
